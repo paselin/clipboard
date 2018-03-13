@@ -16,7 +16,6 @@
   "homepage": "https://bitbucket.org/nanami199/clipboard#readme",
   "devDependencies": {
     "electron": "^1.8.3",
-    "eslint": "^4.18.2",
-    "spectron": "^3.8.0"
+    "eslint": "^4.18.2"
   }
 }
