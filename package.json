@@ -15,8 +15,10 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/nanami199/clipboard#readme",
   "devDependencies": {
-    "electron": "^1.8.3",
     "electron-mocha": "^6.0.1",
     "eslint": "^4.18.2"
+  },
+  "dependencies": {
+    "electron": "^1.8.3"
   }
 }
