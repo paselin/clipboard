@@ -4,7 +4,8 @@
   "description": "clipboard test",
   "main": "main.js",
   "scripts": {
-    "test": "electron-mocha ./test"
+    "test": "electron-mocha ./test",
+    "typesinstall": "npm install --save-dev @types/chai"
   },
   "repository": {
     "type": "git",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/nanami199/clipboard#readme",
   "devDependencies": {
+    "@types/chai": "^4.1.2",
     "electron-mocha": "^6.0.1",
     "eslint": "^4.18.2"
   },
