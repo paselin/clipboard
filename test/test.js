@@ -5,7 +5,16 @@ var assert = chai.assert;
 var source = require("../src/main.js");
 
 describe("テストのテスト",function(){
-    it("1+1のテスト",function(){
-        assert.equal(source.addInt(1,1),2);
+    it("なんかやる",function(){
+        assert;
+        source;
     });
+
+    // it("見せるテスト",function(){
+    //     assert.equal(source.showInt(1),1);
+    // });
+
+    // it("1+1のテスト",function(){
+    //     assert.equal(source.addInt(1,1),2);
+    // });
 });
