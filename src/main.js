@@ -7,7 +7,7 @@ var app = electron.app;
 var mainWindow = null;
 
 // 全てのウィンドウが閉じたら、の記述
-// Javaにもあったな？こんなの
+// Java Swingにもあったな？こんなの
 app.on("window-all-closed", function(){
     if(process.platform != "darwin") app.quit();
 });
