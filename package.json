@@ -1,7 +1,7 @@
 {
   "name": "clipboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "clipboard test",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,5 @@
     "electron-mocha": "^6.0.1",
     "eslint": "^4.18.2"
   },
-  "dependencies": {
-    "electron": "^1.8.3"
-  }
+  "dependencies": {}
 }
