@@ -9,7 +9,10 @@
             "request": "launch",
             "name": "Electron Main",
             "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-            "program": "${workspaceFolder}/main.js",
+            "osx":{
+                "runtimeExecutable": "electron",                
+            },
+            "program": "${workspaceFolder}/src/main.js",
             "protocol": "inspector",
             "console":"integratedTerminal"
         }
