@@ -15,9 +15,10 @@ app.on("window-all-closed", function(){
 // アプリケーションが開いた時の記述
 app.on("ready", function(){
     // ブラウザ(chromium)起動
-    mainWindow = new electron.BrowserWindow({width:800,height:600});
+    mainWindow = new electron.BrowserWindow({width:400,height:300});
     mainWindow.loadURL("file://" + __dirname + "/index.html");
     mainWindow.on("closed",function(){
         mainWindow = null;
     });
 });
+
