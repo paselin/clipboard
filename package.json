@@ -4,8 +4,12 @@
   "description": "clipboard test",
   "main": "main.js",
   "scripts": {
+    "init": "npm install --save-dev npm-run-all && npm run install",
+    "install": "npm-run-all install:*",
     "test": "electron-mocha ./test",
-    "typesinstall": "npm install --save-dev @types/chai"
+    "install:eslint": "npm install --save-dev eslint",
+    "install:mocha": "npm install --save-dev {chai,electron-mocha}",
+    "install:types": "npm install --save-dev {@types/chai,@types/mocha}"
   },
   "repository": {
     "type": "git",
@@ -20,7 +24,8 @@
     "@types/mocha": "^2.2.48",
     "chai": "^4.1.2",
     "electron-mocha": "^6.0.1",
-    "eslint": "^4.18.2"
+    "eslint": "^4.18.2",
+    "npm-run-all": "^4.1.2"
   },
   "dependencies": {}
 }
